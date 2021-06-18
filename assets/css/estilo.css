@@ -4,6 +4,8 @@
   padding: 0px;
   border: 0px;
   box-sizing: border-box; }
+  * body {
+    font-family: 'Varela Round', sans-serif; }
 
 header.headerindex {
   background-color: #F3969A;
@@ -151,15 +153,18 @@ main.mainPanaderia {
     vertical-align: top;
     width: 100%;
     height: 100%;
-    object-fit: cover; }
+    object-fit: cover;
+    border-radius: 0.5rem; }
   main.mainPanaderia .article-card__content {
     padding: 1rem; }
   main.mainPanaderia .article-card__title {
+    font: 'Varela Round', sans-serif;
     margin: 0.5rem 0 1rem;
     color: #FF619B;
     font-size: 1.8rem;
     font-weight: 700; }
   main.mainPanaderia .article-card__text {
+    font: 'Varela Round', sans-serif;
     color: #1f1f1f;
     line-height: 1.4;
     margin: 1rem 0; }

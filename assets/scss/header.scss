@@ -1,0 +1,49 @@
+/*header de index.html*/
+
+header.headerindex {
+    background-color: $crema;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    nav.headerindex__menu {
+        padding: 20px;
+
+
+     }
+}      a.headerindex__menu--link {
+            color: $rojo;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 1.2rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 5px;
+            padding: 20px 15px;
+            text-decoration: none;
+        }
+
+/*header views*/
+
+header.header{
+    background-color: $crema;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    nav.menu {
+        padding: 20px;
+
+
+     }
+}      a.menu__link {
+            color: $rojo;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 1.2rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 5px;
+            padding: 20px 15px;
+            text-decoration: none;
+        }

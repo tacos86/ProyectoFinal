@@ -28,14 +28,14 @@ header.headerindex {
 header.header{
     background-color: $crema;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
+     div.header__div{
 
+     }
 
     nav.menu {
         padding: 20px;
-
-
      }
 }      a.menu__link {
             color: $rojo;
@@ -46,4 +46,8 @@ header.header{
             margin: 5px;
             padding: 20px 15px;
             text-decoration: none;
+        }
+
+        a.menu__link:hover{
+            color: $aero;
         }

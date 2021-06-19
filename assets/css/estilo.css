@@ -22,7 +22,7 @@ a.headerindex__menu--link {
 header.header {
   background-color: #F3969A;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center; }
   header.header nav.menu {
     padding: 20px; }
@@ -36,6 +36,9 @@ a.menu__link {
   margin: 5px;
   padding: 20px 15px;
   text-decoration: none; }
+
+a.menu__link:hover {
+  color: #649381; }
 
 /*empresa.html*/
 .card {

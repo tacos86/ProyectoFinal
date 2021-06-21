@@ -1,15 +1,15 @@
     // Cuando la pantalla es menor a 576px)
 @media (max-width: 575.98px) {  
 main.mainPanaderia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 div.productosWrap{
-    display: flex;
-    flex-flow: column wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 div.grillaMercado{
@@ -98,6 +98,7 @@ footer.footer {
                 text-decoration: none;
                 color: #190E09;
                 text-align: left;
+                margin: 15px 0px;
                 
                 }
                 
@@ -124,6 +125,7 @@ footer.footer {
 
             .footer__elementos--direccion{
                 text-align: left;
+                margin: 15px 0px;
 
                 a:link {
                     text-decoration: none;

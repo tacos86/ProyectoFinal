@@ -1,9 +1,9 @@
 /*Variables*/
 $rojo: #E32D2D;
 $azul: #057989;
-$crema: #F3969A;
+$crema: #FC9D9A;
 $marron: #190E09;
-$aero: #649381;
+$aero: #83AF9B;
 $lato: 'Lato', sans-serif;
 
 @import "header";
@@ -20,6 +20,7 @@ $lato: 'Lato', sans-serif;
 
 body {
     font-family: 'Varela Round', sans-serif;
+    
 }
 
 
@@ -43,7 +44,7 @@ footer.footer {
      h5{
          padding-bottom: 10px;
          font-size: 1.2rem;
-         font-family: 'Lato', sans-serif;
+         font-family: 'Varela Round', sans-serif;
          
           }
     

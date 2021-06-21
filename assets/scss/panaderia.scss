@@ -1,7 +1,8 @@
     /*panaderia.html*/
 
-    main.mainPanaderia{
-        display: flex;
+    main.grillaProductos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         align-items: center;
         margin: 40px;
@@ -14,9 +15,9 @@
         }
 
         .article-card {
-            background-color: #fff;
-            width: 100%;
-            max-width: 25rem;
+            background-color: rgb(250, 208, 232);
+            width: 300px;
+            max-width: 15rem;
             border-radius: 0.2rem;
             overflow: hidden;
             box-shadow: 0 0.5rem 1.6rem -1.2rem rgba(0,0,0,0.10);
@@ -61,19 +62,7 @@
             margin: 1rem 0;
           }
           
-          .article-card__link {
-            display: inline-block;
-            text-decoration: none;
-            font-size: 1.125rem;
-            font-weight: 500;
-            color: $rojo;
-            position: relative;
-            transition: color 0.2s;
-          }
           
-          .article-card__link:hover {
-            color: #5E08EA;
-          }
 
 
 

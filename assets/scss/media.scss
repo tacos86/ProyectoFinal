@@ -24,6 +24,13 @@ div.grillaMercado{
         width: 100%;
     }
 
+    .contactoWrap{
+        display: flex;
+        flex-flow: column wrap;
+        justify-items: center;
+        align-items: center;
+    }
+
 
 .image {
     margin: 0.5rem 0.5rem;
@@ -166,4 +173,11 @@ footer.footer {
         border: none;
         width: 100%;
     }
+}
+
+.contactoWrap{
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center;
 }

@@ -282,6 +282,60 @@ a.comprar {
   display: inline-block;
   margin-right: 5px; }
 
+/*contacto.html*/
+.contactoWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: center; }
+
+.contacto {
+  padding: 45px 45px 20px;
+  margin-top: 50px;
+  font-family: 'Varela Round', sans-serif; }
+
+.contacto label {
+  display: block; }
+
+.contacto div {
+  margin-bottom: 15px;
+  /* esto los separara un poco */ }
+
+.contacto input[type='text'], .contacto textarea {
+  padding: 7px 6px;
+  width: 294px;
+  /* una longitud definida */
+  border: 1px solid #CED5D7;
+  resize: none;
+  /* esta propiedad es para que el textarea no sea redimensionable */
+  border-radius: 10px;
+  margin: 5px 0; }
+
+.contacto input[type='text']:focus, .contacto textarea:focus {
+  outline: none;
+  /* reset especifico para Chrome/Safari */ }
+
+.contacto input[type='email'] {
+  padding: 7px 6px;
+  width: 294px;
+  border: 1px solid #CED5D7;
+  resize: none;
+  /* esta propiedad es para que el textarea no sea redimensionable */
+  border-radius: 10px;
+  margin: 5px 0; }
+
+.contacto input[type='submit'] {
+  font-family: 'Varela Round', sans-serif;
+  border: 1px solid #CED5D7;
+  box-shadow: 0 0 0 3px #EEF5F7;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold; }
+
+.mapa {
+  padding: 15px;
+  border-left: solid 1px #83AF9B; }
+
 @media (max-width: 575.98px) {
   main.mainPanaderia {
     display: flex;
@@ -299,6 +353,11 @@ a.comprar {
     margin: 0px;
     border: none;
     width: 100%; }
+  .contactoWrap {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center; }
   .image {
     margin: 0.5rem 0.5rem;
     padding: 0;
@@ -381,6 +440,12 @@ a.comprar {
     margin: 0px;
     border: none;
     width: 100%; } }
+
+.contactoWrap {
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: center;
+  align-items: center; }
 
 * {
   margin: 0px;

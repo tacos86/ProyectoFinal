@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> <!--fuente fredoka-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../assets/css/estilo.css">
-        <title>CUFA Confiteria</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!--fuente fredoka-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <title>CUFA Confiteria</title>
+</head>
+
 <body>
     <!--encabezado-->
     <header class="header">
         <div class="header__div">
             <a href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" width="50px" height="50px"></a>
-           
-            
+
+
         </div>
         <nav class="menu">
             <a class="menu__link" href="/index.html">Inicio</a>
@@ -26,38 +29,168 @@
             <a class="menu__link" href="confiteria.html">Dulce</a>
             <a class="menu__link" href="resto.html">Salado</a>
             <a class="menu__link" href="mercadito.html">Mercadito</a>
-            <a class="menu__link" href="contacto.html">Contacto</a>            
+            <a class="menu__link" href="contacto.html">Contacto</a>
         </nav>
     </header>
+    <!--productos disponibles para venta-->
+    <div class="grillaMercado">
 
-
-
-        <!--pie de pagina-->
-        <footer class="footer">
-            <div class="footer__elementos">
-                <div class="footer__elementos--about">
-                    <h5>Sobre CUFA</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur soluta vitae eveniet esse quod dolorum excepturi, beatae et impedit velit deserunt, eaque error facilis laboriosam?.. </p><br> <a href="views/empresa.html">SEGUI LEYENDO</a> </div>
-                
-                <div class="footer__elementos--mapa">
-                    <h5 class="tituloCentrado">Mapa del Sitio</h5>
-                    <ul>
-                        <li><a href="/index.html">Inicio</a></li>
-                        <li><a href="empresa.html">Nosotros</a></li>
-                        <li><a href="panaderia.html">Panaderia</a></li>
-                        <li><a href="confiteria.html">Dulce</a></li>
-                        <li><a href="resto.html">Salado</a></li>
-                        <li><a href="mercadito.html">Mercadito</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-                <div class="footer__elementos--direccion">
-                    <h5>Contacto</h5>
-                     011 4006-1600 <br> 011 6970 1974 <br> <a href="mailto:info@cufa.com.ar">info@cufa.com.ar</a> <br> Av La Plata 123 <br>
-                    CABA - Buenos Aires <br>
-                    Argentina</div>
+        <div class="product-card">
+            <div class="badge">Nuevo!</div>
+            <div class="product-tumb">
+                <img src="../multimedia/pasta.jpeg" alt="pasta">
             </div>
-        </footer>
-    </body>
-    
-    </html>
+            <div class="product-details">
+                <h4>Pasta x 500 grs</h4>
+                <p>La mejor pasta traida directamente desde Italia a tu mesa. Paquete x 500grs.</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$230.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Nuevo!</div>
+            <div class="product-tumb">
+                <img src="../multimedia/galletas.jpeg" alt="galletas">
+            </div>
+            <div class="product-details">
+                <h4>Galletas Puro Chocolate</h4>
+                <p>Masa de chocolate con chips de chocolate amargo. Pack x 4 unidades</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$120.00</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+               <div class="product-tumb">
+                <img src="../multimedia/aceite.jpg" alt="aceite">
+            </div>
+            <div class="product-details">
+                <h4>Aceite de Oliva x 500 ml</h4>
+                <p>Aceite de Oliva Extravirgen! Primera prensada en frío.</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$599.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Carne criolla</div>
+             <div class="product-tumb">
+                <img src="../multimedia/empanadas.jpeg" alt="empanadas de carne">
+            </div>
+            <div class="product-details">
+                <h4>Empanadas de Carne</h4>
+                <p>Empanadas de carne criollas. Pack x docena</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$1200.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Jamón y queso</div>
+            <div class="product-tumb">
+                <img src="../multimedia/empanadas.jpeg" alt="empanadas de jamon y queso">
+            </div>
+            <div class="product-details">
+                <h4>Empanadas de jamón y queso</h4>
+                <p>Las clásicas empanadas de jamón y queso. ¿A quién no le gustan? Pack x docena</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$1200.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Pollo</div>
+            <div class="product-tumb">
+                <img src="../multimedia/empanadas.jpeg" alt="empanadas de pollo">
+            </div>
+            <div class="product-details">
+                <h4>Empanadas de pollo</h4>
+                <p>Pollo, cebollita, morrón. Ideales! Pack x docena</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$1200.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+        <div class="product-tumb">
+                <img src="../multimedia/cafe.jpeg" alt="cafe">
+            </div>
+            <div class="product-details">
+                <h4>Cafe tostado y molido x 500 grs</h4>
+                <p>Intenso con notas a chocolates</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$750.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Última semana!</div>
+            <div class="product-tumb">
+                <img src="../multimedia/queso.jpeg" alt="Queso">
+            </div>
+            <div class="product-details">
+                <h4>Queso Parmesano x 1kg</h4>
+                <p>Queso parmesano ideal para acompañar todas tus comidas. Hormita x 1kg.</p>
+                <div class="product-bottom-details">
+                    <div class="product-price">$999.99</div>
+                </div>
+                <a class="comprar" href="#">Lo quiero!</a>
+            </div>
+        </div>
+
+ 
+    </div>
+  
+
+
+
+
+    <!--pie de pagina-->
+    <footer class="footer">
+        <div class="footer__elementos">
+            <div class="footer__elementos--about">
+                <h5>Sobre CUFA</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur soluta vitae eveniet esse quod
+                    dolorum excepturi, beatae et impedit velit deserunt, eaque error facilis laboriosam?.. </p><br> <a
+                    href="views/empresa.html">SEGUI LEYENDO</a>
+            </div>
+
+            <div class="footer__elementos--mapa">
+                <h5 class="tituloCentrado">Mapa del Sitio</h5>
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="empresa.html">Nosotros</a></li>
+                    <li><a href="panaderia.html">Panaderia</a></li>
+                    <li><a href="confiteria.html">Dulce</a></li>
+                    <li><a href="resto.html">Salado</a></li>
+                    <li><a href="mercadito.html">Mercadito</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__elementos--direccion">
+                <h5>Contacto</h5>
+                011 4006-1600 <br> 011 6970 1974 <br> <a href="mailto:info@cufa.com.ar">info@cufa.com.ar</a> <br> Av La
+                Plata 123 <br>
+                CABA - Buenos Aires <br>
+                Argentina
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

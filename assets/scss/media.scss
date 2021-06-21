@@ -12,6 +12,19 @@ div.productosWrap{
     flex-flow: column wrap;
 }
 
+div.grillaMercado{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+    .product-card{
+        margin: 0px;
+        border: none;
+        width: 100%;
+    }
+
+
 .image {
     margin: 0.5rem 0.5rem;
     padding: 0;
@@ -137,4 +150,20 @@ footer.footer {
         align-items: center;
         flex-flow: column wrap;
     }
+    
+    div.productosWrap{
+        display: flex;
+        flex-flow: column wrap;
     }
+    
+    div.grillaMercado{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .product-card{
+        margin: 0px;
+        border: none;
+        width: 100%;
+    }
+}

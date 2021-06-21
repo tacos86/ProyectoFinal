@@ -1,35 +1,25 @@
-/*Variables*/
-$rojo: #E32D2D;
-$azul: #057989;
-$crema: #F3969A;
-$marron: #190E09;
-$aero: #649381;
-$lato: 'Lato', sans-serif;
-
-@import "header";
-@import "empresa";
-@import "panaderia";
-@import "confiteria";
-@import "media";
-
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    box-sizing: border-box;
-
-body {
-    font-family: 'Varela Round', sans-serif;
+    // Cuando la pantalla es menor a 576px)
+@media (max-width: 575.98px) {  
+main.mainPanaderia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
-
-
-img.index__foto {
-    width: 100%;
-    height: auto;
-    margin-top: 3px;
-
+div.productosWrap{
+    display: flex;
+    flex-flow: column wrap;
 }
+
+.image {
+    margin: 0.5rem 0.5rem;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    
+  }
 
 footer.footer {
     background-color: $crema;
@@ -48,7 +38,7 @@ footer.footer {
           }
     
     h5.tituloCentrado{
-        text-align: center;
+        text-align: left;
     }
          
      
@@ -81,15 +71,13 @@ footer.footer {
             }
         }
 
-    }
-
         .footer__elementos--mapa{  
 
             ul {
                 list-style: none;
                 text-decoration: none;
                 color: #190E09;
-                text-align: center;
+                text-align: left;
                 
                 }
                 
@@ -115,7 +103,7 @@ footer.footer {
             }
 
             .footer__elementos--direccion{
-                text-align: right;
+                text-align: left;
 
                 a:link {
                     text-decoration: none;
@@ -136,4 +124,17 @@ footer.footer {
                 
             }
         }
+
+    }
+}
+
+// Cuando la pantalla es menor a  768px)
+@media (max-width: 767.98px) 
+{  
+    main.mainPanaderia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
     }

@@ -4,6 +4,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 40px;
+        border: solid 1px $crema;
+        border-radius: 15px;
+
 
         article{
             margin: 0.5rem 1.5rem;
@@ -43,7 +47,7 @@
           }
           
           .article-card__title {
-            font: 'Varela Round', sans-serif;
+            font: 'lato', sans-serif;
             margin: 0.5rem 0 1rem;
             color: #FF619B;
             font-size: 1.8rem;
@@ -52,7 +56,7 @@
           
           .article-card__text {
             font: 'Varela Round', sans-serif;
-            color: #1f1f1f;
+            color: $marron;
             line-height: 1.4;
             margin: 1rem 0;
           }
@@ -62,7 +66,7 @@
             text-decoration: none;
             font-size: 1.125rem;
             font-weight: 500;
-            color: #084ACB;
+            color: $rojo;
             position: relative;
             transition: color 0.2s;
           }

@@ -1,6 +1,16 @@
 // Cuando la pantalla es menor a 576px)
 @media (max-width: 576px) {  
 
+main.grillaProductos{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        border-radius: 15px;
+
+}
 
 div.grillaMercado{
     display: grid;

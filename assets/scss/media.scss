@@ -1,16 +1,6 @@
-    // Cuando la pantalla es menor a 576px)
-@media (max-width: 575.98px) {  
-main.mainPanaderia{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
+ /*   // Cuando la pantalla es menor a 576px)
+@media (max-width: 576px) {  
 
-div.productosWrap{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
 
 div.grillaMercado{
     display: grid;
@@ -182,4 +172,4 @@ footer.footer {
     flex-flow: column wrap;
     justify-items: center;
     align-items: center;
-}
+} */

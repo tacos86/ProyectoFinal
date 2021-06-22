@@ -1,8 +1,8 @@
 /*contacto.html*/
-.contactoWrap{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: stretch;
+div.contactoWrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
     align-items: center;
 }
 
@@ -10,10 +10,10 @@
 .contacto{
    
     padding: 45px 45px 20px;
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;   
+    margin-left: 130px; 
     font-family: 'Varela Round', sans-serif;
+    
 }
 
 .contacto label{

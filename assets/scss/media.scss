@@ -1,7 +1,83 @@
 // Cuando la pantalla es menor a 576px)
 @media (max-width: 576px) {  
 
-main.grillaProductos{
+    //nav del index
+     header.headerindex{
+         display: flex;         
+         align-content: center;
+
+     }
+        
+    nav.headerindex__menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+        margin-left: 20px;
+      
+        
+
+     }
+      a.headerindex__menu--link {
+            color: $rojo;
+            font-family: 'Varela Round', sans-serif;
+            font-size: 0.7rem;
+            text-decoration: none;
+            border-left: solid 1px $rojo;
+            
+            padding: 15px;  
+                   
+
+
+        }
+ a.ocultar{
+     display: none;
+ }
+        
+// menu views
+
+header.header{
+    display: flex;         
+    align-content: center;
+
+}
+
+div.header__div{
+    display: none;
+}
+   
+nav.menu {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-content: center;
+   margin-left: 20px;
+ 
+   
+
+}
+ a.menu__link {
+       color: $rojo;
+       font-family: 'Varela Round', sans-serif;
+       font-size: 0.7rem;
+       text-decoration: none;
+       border-left: solid 1px $rojo;
+       
+       padding: 15px;  
+              
+
+
+   }
+
+
+
+
+
+
+
+    main.grillaProductos{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: auto;
@@ -11,6 +87,7 @@ main.grillaProductos{
         border-radius: 15px;
 
 }
+
 
 div.grillaMercado{
     display: grid;
@@ -149,6 +226,7 @@ footer.footer {
 
     }
 }
+
 
 // Cuando la pantalla es menor a  768px)
 @media (max-width: 767.98px) 

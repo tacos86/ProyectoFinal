@@ -6,7 +6,6 @@ header.headerindex {
     justify-content: flex-end;
     align-items: center;
 
-
     nav.headerindex__menu {
         padding: 20px;
 
@@ -21,6 +20,7 @@ header.headerindex {
             margin: 5px;
             padding: 20px 15px;
             text-decoration: none;
+            
         }
 
 /*header views*/
@@ -30,13 +30,12 @@ header.header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-     div.header__div{
-
-     }
 
     nav.menu {
         padding: 20px;
+
      }
+
 }      a.menu__link {
             color: $rojo;
             font-family: 'Varela Round', sans-serif;

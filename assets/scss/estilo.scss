@@ -286,11 +286,14 @@ header.header{
 }
 
 div.header__div{
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
 }
    
 nav.menu {
-   display: flex;
+   display: none;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: flex-start;
@@ -364,6 +367,10 @@ div.grillaMercado{
     overflow: hidden;
     position: relative;
     
+  }
+
+  .contacto{
+      justify-content: left;
   }
 
 footer.footer {
@@ -516,3 +523,16 @@ footer.footer {
     justify-items: center;
     align-items: center;
 } 
+
+.contacto{
+    padding: 45px 45px 20px;
+    margin-top: 50px;   
+    margin-left: 5px; 
+    font-family: 'Varela Round', sans-serif;
+    justify-content: left;
+}
+
+.mapa{
+    width: 400px;
+    height: auto;
+}

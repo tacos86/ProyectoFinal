@@ -51,7 +51,7 @@ footer.footer {
      h5{
          padding-bottom: 10px;
          font-size: 1.2rem;
-         font-family: 'Varela Round', sans-serif;
+         font-family: $lato;
          
           }
     
@@ -486,6 +486,10 @@ footer.footer {
         flex-direction: column;
 
     }
+
+    
+
+
 }
 
 

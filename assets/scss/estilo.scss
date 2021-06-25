@@ -24,6 +24,7 @@ $lato: 'Lato', sans-serif;
 
 body {
     font-family: 'Varela Round', sans-serif;
+   
     
 }
 
@@ -352,12 +353,7 @@ div.grillaMercado{
         width: 100%;
     }
 
-    .contactoWrap{
-        display: flex;
-        flex-flow: column wrap;
-        justify-items: center;
-        align-items: center;
-    }
+
 
 
 .image {
@@ -369,9 +365,7 @@ div.grillaMercado{
     
   }
 
-  .contacto{
-      justify-content: left;
-  }
+ 
 
 footer.footer {
     background-color: $crema;
@@ -494,8 +488,7 @@ footer.footer {
     }
 
    form.contacto{
-       margin: 0px;
-       padding: 0px;
+       transform: translateX(-20px);
    }
     
 

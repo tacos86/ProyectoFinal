@@ -575,8 +575,10 @@ h1 {
     flex-direction: column; }
   .fotocontacto img {
     display: none; }
+  div.contactoWrap {
+    margin: 0px; }
   form.contacto {
-    transform: translateX(-20px); } }
+    width: 100vw; } }
 
 @media (max-width: 767.98px) {
   main.mainPanaderia {

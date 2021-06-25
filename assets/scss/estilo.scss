@@ -422,7 +422,7 @@ footer.footer {
             ul {
                 list-style: none;
                 text-decoration: none;
-                color: #190E09;
+                color: $marron;
                 text-align: left;
                 margin: 15px 0px;
                 
@@ -487,8 +487,12 @@ footer.footer {
         }    
     }
 
-   form.contacto{
-       transform: translateX(-20px);
+   div.contactoWrap{
+       margin: 0px;
+   }
+    form.contacto{
+       
+       width: 100vw;
    }
     
 

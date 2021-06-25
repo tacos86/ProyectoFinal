@@ -257,7 +257,7 @@ a.comprar {
 
 /*contacto.html*/
 body {
-  background-image: url(/multimedia/fondo.jpg); }
+  background-image: url(multimedia/fondo.jpg); }
 
 div.contactoWrap {
   display: flex;
